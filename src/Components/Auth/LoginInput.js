@@ -61,7 +61,7 @@ export const LoginInput=()=>{
     },[])
     
     return(
-        <Grid item xs={12} md={12} lg={7} sx={{padding: { md: '0 60px', sm: '0 10px'}}}>
+        <Grid item xs={12} md={12} lg={7} sx={{padding: { md: '0 60px', sm: '0 10px'}}} >
             <form className={classes.rightBoard} onSubmit={handleSubmit}>
                 <Box>
                     <Field className="registerinput" placeholder="E-mail" fullWidth value={email} onChange={changeEmail} type="email"/>
